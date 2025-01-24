@@ -1,0 +1,107 @@
+.a1 > ul{
+    padding: 0;
+    margin: 0;
+    /*background-color: #212f3c;*/
+}
+*{
+    background-color: #f9e79f;
+}
+ul li>a{
+    background-color: #566573;
+}
+#kk1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 70px;
+    position: absolute;
+    margin-top: 200px;
+    background-color: #17202a;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+.a1 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+.a1 ul a{
+    color: #2ecc71;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    display: block;
+    padding-top: 3px;
+    
+}
+.a1 ul li{
+    float: left;
+    position: relative;
+}
+.a1 ul li >a{
+    padding-right: 60px;
+}
+.a1 ul ul{
+    display: none;
+
+}
+.a1 ul ul li{
+    display: block;
+    justify-content: center;
+    float: none;
+}
+.a1 ul ul li a{
+    color: #17202a !important;
+    font-family:monospace!important;
+    font-size: 28px;
+    
+}
+.a1 ul li:hover>ul{
+    background-color: #2ecc71 !important;
+    border-radius: 12px !important;
+    display: block;
+    display: inline-block;
+    margin-top: 0;
+
+}
+
+@media only screen and (max-width:1000px)
+{
+    *{
+        background-color: aliceblue;
+    }
+    .a1 ul li a{
+        background-color: aliceblue !important;
+    }
+    .a1 ul{
+        display: flex;
+        flex-direction: column;
+        clear: both;
+    }
+    .a1 ul ul li a{
+        color: aliceblue;
+    }
+    #kk{
+        float: left !important;
+        margin-top: 50px !important;
+        
+        position: absolute;
+
+    }
+    #kk1{
+        position: absolute;
+        margin-top: 470px;
+        background-color: #17202a !important;
+        color: azure !important;
+        font-family: 'Times New Roman', Times, serif !important;
+        padding: 20px !important;
+        border-radius: 10px !important;
+        font-size: 20px;
+        width: 300px;
+    }
+}
